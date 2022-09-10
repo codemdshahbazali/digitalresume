@@ -5,9 +5,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default {
   name: "Md Shahbaz Ali",
-  title: "Senior Software Engineer",
+  title: "Sr. Software Engineer | Test Automation Lead",
   birthday: "4th Feb 1992",
-  email: "codemdshahbazali@gmail.com",
+  email: "codemdshahbazali @gmail.com",
   address: "Bangalore, India",
   phone: "+91-9980715588",
 

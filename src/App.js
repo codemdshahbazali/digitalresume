@@ -18,9 +18,9 @@ function App() {
           <Grid item xs={12} sm={12} md={4} lg={3}>
             <Profile />
           </Grid>
-          <Grid item xs style={{ backgroundColor: "blue" }}>
-            <Header />
+          <Grid item xs>
             <Router>
+              <Header />
               <Switch>
                 <Route exact path='/'>
                   <Resume />
