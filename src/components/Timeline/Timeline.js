@@ -6,7 +6,6 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import { Typography } from "@mui/material";
-import WorkIcon from "@mui/icons-material/Work";
 
 import "./Timeline.css";
 
