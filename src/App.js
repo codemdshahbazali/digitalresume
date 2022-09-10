@@ -13,16 +13,9 @@ import "./App.css";
 function App() {
   return (
     <div className='App'>
-      <Container>
-        <Grid container>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={4}
-            lg={3}
-            style={{ backgroundColor: "red" }}
-          >
+      <Container className='x-60'>
+        <Grid container spacing={7}>
+          <Grid item xs={12} sm={12} md={4} lg={3}>
             <Profile />
           </Grid>
           <Grid item xs style={{ backgroundColor: "blue" }}>

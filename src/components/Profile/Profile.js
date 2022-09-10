@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import PersonIcon from "@mui/icons-material/Person";
+import DownloadIcon from "@mui/icons-material/Download";
 
 import CustomTimeline, {
   CustomTimelineSeperator,
@@ -9,6 +10,7 @@ import CustomTimeline, {
 import resumeData from "./../../utils/resumeData";
 import "./Profile.css";
 import { TimelineContent, TimelineItem } from "@mui/lab";
+import CustomButton from "../Button/Button";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem className='timeline_firstItem'>
@@ -61,7 +63,9 @@ const Profile = () => {
         </CustomTimeline>
 
         <br />
-        <button>Download CV</button>
+        <div className='btn_container'>
+          <CustomButton text='Download CV' icon={<DownloadIcon />} />
+        </div>
       </div>
     </div>
   );
