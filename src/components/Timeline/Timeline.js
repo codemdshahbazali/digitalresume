@@ -28,7 +28,6 @@ const CustomTimeline = ({ title, icon, children }) => {
             </Typography>
           </TimelineContent>
         </TimelineItem>
-
         {children}
 
         {/* Remaining Items */}
