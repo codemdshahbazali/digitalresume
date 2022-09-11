@@ -3,7 +3,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
-export default {
+const dataObj = {
   name: "Md Shahbaz Ali",
   title: "Sr. Software Engineer | Test Automation Lead",
   birthday: "4th Feb 1992",
@@ -34,3 +34,5 @@ export default {
     },
   },
 };
+
+export default dataObj;

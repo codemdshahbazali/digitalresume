@@ -24,7 +24,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
       ) : (
         <Typography className='timelineItem_text'>
           <span>{title}: </span>
-          <a href={link} target='_blank'>
+          <a href={link} target='_blank' rel='noreferrer'>
             {text}
           </a>
         </Typography>
@@ -51,12 +51,13 @@ const Profile = () => {
           <CustomTimelineItem title='Title' text={resumeData.title} />
           <CustomTimelineItem title='Email' text={resumeData.email} />
 
-          {Object.keys(resumeData.socials).map((key) => {
+          {Object.keys(resumeData.socials).map((keyval) => {
             return (
               <CustomTimelineItem
-                title={key}
-                text={resumeData.socials[key].text}
-                link={resumeData.socials[key].link}
+                title={keyval}
+                text={resumeData.socials[keyval].text}
+                link={resumeData.socials[keyval].link}
+                key={keyval}
               />
             );
           })}

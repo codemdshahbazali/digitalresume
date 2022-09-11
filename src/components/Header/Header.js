@@ -16,7 +16,6 @@ import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
 
 const Header = (props) => {
-  console.log(props);
   const pathName = props?.location?.pathname;
 
   return (
@@ -59,6 +58,7 @@ const Header = (props) => {
                 href={resumeData.socials[keyVal].link}
                 key={keyVal}
                 target='_blank'
+                rel='noreferrer'
               >
                 {resumeData.socials[keyVal].icon}
               </a>
