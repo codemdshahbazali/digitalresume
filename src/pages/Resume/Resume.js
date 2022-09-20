@@ -1,4 +1,4 @@
-import { Grid, Icon, Paper, Typography } from "@mui/material";
+import { Grid, Icon, Paper, TextField, Typography } from "@mui/material";
 import React from "react";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
@@ -9,6 +9,9 @@ import resumeData from "./../../utils/resumeData";
 import CustomTimeline, {
   CustomTimelineSeperator,
 } from "../../components/Timeline/Timeline";
+
+import CustomButton from "../../components/Button/Button";
+
 import { TimelineContent, TimelineDot, TimelineItem } from "@mui/lab";
 
 const CustomTimelineItem = ({ data }) => {
@@ -112,6 +115,10 @@ const Resume = () => {
         justifyContent='space-between'
         className='section graybg pb_45 p_50'
       >
+        <Grid item className='section_title mb_30'>
+          <span></span>
+          <h6>Skills</h6>
+        </Grid>
         <Grid item xs={12}>
           <Grid container spacing={3}>
             {resumeData.skills.map((skill) => {
@@ -142,8 +149,84 @@ const Resume = () => {
           </Grid>
         </Grid>
       </Grid>
+
       {/* Contact */}
-      <Grid container className='section'></Grid>
+      <Grid container className='section pt_45 pb_45' spacing={6}>
+        {/* Contact form */}
+        <Grid item xs={12} lg={7}>
+          <Grid container>
+            <Grid item className='section_title mb_30'>
+              <span></span>
+              <h6>Contact Form</h6>
+            </Grid>
+            <Grid item xs={12}>
+              <Grid container spacing={3}>
+                <Grid item xs={12} sm={6}>
+                  <TextField fullWidth name='name' label='Name' />
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <TextField fullWidth name='email' label='E-mail' />
+                </Grid>
+                <Grid item xs={12}>
+                  <TextField
+                    fullWidth
+                    name='message'
+                    label='Message'
+                    multiline
+                    rows={4}
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <CustomButton text='Submit' />
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+        {/* Contact information */}
+        <Grid item xs={12} lg={5}>
+          <Grid container>
+            <Grid item className='section_title mb_30'>
+              <span></span>
+              <h6>Contact Information</h6>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Grid container>
+                <Grid item xs={12}>
+                  <Typography className='contactInfo_item'>
+                    <span>Address: </span> {resumeData.address}
+                  </Typography>
+                </Grid>
+                <Grid item xs={12}>
+                  <Typography className='contactInfo_item'>
+                    <span>Phone: </span> {resumeData.phone}
+                  </Typography>
+                </Grid>
+                <Grid item xs={12}>
+                  <Typography className='contactInfo_item'>
+                    <span>Email: </span> {resumeData.email}
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Grid container className='contactInfo_socialsConatiner'>
+                {Object.keys(resumeData.socials).map((key) => {
+                  return (
+                    <Grid item className='contactInfo_social'>
+                      <a href={resumeData.socials[key].link}>
+                        {resumeData.socials[key].icon}
+                      </a>
+                    </Grid>
+                  );
+                })}
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
     </>
   );
 };

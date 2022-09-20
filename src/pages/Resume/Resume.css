@@ -79,3 +79,26 @@
   padding: 2px !important;
   margin-right: 5px !important;
 }
+
+/* Contact Info */
+
+.contactInfo_item {
+  font-size: 14px !important;
+  color: #787878;
+  line-height: 34px !important;
+}
+
+.contactInfo_item > span {
+  color: black !important;
+  font-weight: 500;
+}
+
+.contactInfo_socialsConatiner {
+  margin-top: 25px;
+}
+
+.contactInfo_social > a > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  margin-right: 10px;
+  color: black;
+}
