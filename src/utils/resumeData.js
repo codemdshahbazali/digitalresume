@@ -2,6 +2,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WebOutlinedIcon from "@mui/icons-material/WebOutlined";
+import StorageIcon from "@mui/icons-material/Storage";
+import BugReportIcon from "@mui/icons-material/BugReport";
+import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
 
 const dataObj = {
   name: "Md Shahbaz Ali",
@@ -38,14 +42,14 @@ const dataObj = {
     "Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.\n\nQuick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.",
   experiences: [
     {
-      title: "Art Director - Facebook Inc",
-      date: "2010 - Present",
+      title: "Test Automation Lead - Siemens",
+      date: "Aug 2018 - Present",
       description:
         "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
     },
     {
-      title: "Senior Designer - Google",
-      date: "2008 - 2010",
+      title: "Test Automation Engineer - Cognizant",
+      date: "Feb 2015 - Aug 2018",
       description:
         "So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.",
     },
@@ -55,19 +59,64 @@ const dataObj = {
       title: "St Thomas College Of Engineering & Tech",
       date: "2010 - 2014",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "Completed Bachleors of Technology on Information Technology from STCET, Kolkata, India.",
     },
     {
       title: "DAV Kapil Dev Public School",
       date: "2009",
       description:
-        "So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.",
+        "Completed 12th from KDPS Ranchi, India. Subjects were Physics, Chemistry, Maths, Computer Science, English and Physical Education.",
+    },
+  ],
+
+  services: [
+    {
+      title: "Test Automation",
+      description:
+        "Testing applications since last 8 years using various automation tools.",
+      icon: <BugReportIcon />,
     },
     {
-      title: "St. Francis Public School",
-      date: "2007",
-      description:
-        "So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.",
+      title: "Frontend",
+      description: "Built excellent and smooth UI using Html, CSS & React.",
+      icon: <WebOutlinedIcon />,
+    },
+    {
+      title: "Backend",
+      description: "Built lot of APIs using Express and Node.",
+      icon: <StorageIcon />,
+    },
+  ],
+
+  skills: [
+    {
+      title: "Testing",
+      description: [
+        "WebdriverIO",
+        "Protractor",
+        "Cypress",
+        "Jasmine",
+        "Mocha-Chai",
+        "Java Selenium",
+      ],
+    },
+    {
+      title: "Frontend",
+      description: [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Bootstrap",
+        "Material UI",
+      ],
+    },
+    {
+      title: "Backend",
+      description: ["Node", "Python", "Express", "SQL", "MongoDB", "Postman"],
+    },
+    {
+      title: "CI/CD",
+      description: ["Git", "Github", "Jenkins", "Docker", "Agile/Scrum"],
     },
   ],
 };

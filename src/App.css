@@ -1,73 +1,88 @@
 :root {
-    --main-color: #ffc500;
+  --main-color: #ffc500;
 }
 
 .container_shadow {
-    box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.13);
-    -webkit-box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.13);
-    -moz-box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.13);
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+}
+
+.graybg {
+  background-color: #fafafa;
 }
 
 /* Margins and Paddings */
 
 .x-60 {
-    margin-top: 60px !important;
+  margin-top: 60px !important;
 }
 
 .mt_30 {
-    margin-top: 30px !important;
+  margin-top: 30px !important;
 }
 
 .mb_30 {
-    margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 }
 
 .p_30 {
-    padding: 30px !important;
+  padding: 30px !important;
 }
 
 .pb_45 {
-    padding-bottom: 45px !important;
+  padding-bottom: 45px !important;
 }
 
+.p_50 {
+  padding: 50px;
+}
+
+.pt_45 {
+  padding-top: 45px;
+}
 /* End of margins and paddings */
 
 .main_content {
-    background-color: #fff;
-    /* min-height: 100vh; */
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    margin-bottom: 30px;
-    padding: 30px;
+  background-color: #fff;
+  /* min-height: 100vh; */
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 30px;
+  /* padding: 30px; */
+}
+
+.section {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .section_title {
-    position: relative;
-    display: inline-block;
-    padding: 0 3px;
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
 }
 
-.section_title  h6 {
-    font-size: 18px;
-    font-weight: 600;
-    position: relative;
-    margin: 0;
+.section_title h6 {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
 }
 
 .section_title span {
-    position: absolute;
-    height: 7px;
-    width: 100%;
-    bottom: 0;
-    opacity: 0.4;
-    left: 0;
-    background-color: var(--main-color);
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
 }
 
 @media (max-width: 900px) {
-    .x-60 {
-        margin-top: 30px;
-    }
+  .x-60 {
+    margin-top: 30px;
+  }
 }
-
