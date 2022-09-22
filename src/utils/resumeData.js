@@ -6,6 +6,7 @@ import WebOutlinedIcon from "@mui/icons-material/WebOutlined";
 import StorageIcon from "@mui/icons-material/Storage";
 import BugReportIcon from "@mui/icons-material/BugReport";
 import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
+import { Language, YouTube } from "@mui/icons-material";
 
 const dataObj = {
   name: "Md Shahbaz Ali",
@@ -117,6 +118,65 @@ const dataObj = {
     {
       title: "CI/CD",
       description: ["Git", "Github", "Jenkins", "Docker", "Agile/Scrum"],
+    },
+  ],
+
+  portfolio: [
+    {
+      tag: "React",
+      caption: "A short description",
+      image:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      title: "React Project 1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
+      links: [
+        { link: "https:://wwww.google.com", icon: <YouTube /> },
+        { link: "https:://wwww.google.com", icon: <GitHubIcon /> },
+        { link: "https:://wwww.google.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "React",
+      caption: "A short description",
+      image:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      title: "React Project 2",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
+      links: [
+        { link: "https:://wwww.google.com", icon: <YouTube /> },
+        { link: "https:://wwww.google.com", icon: <GitHubIcon /> },
+        { link: "https:://wwww.google.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "Python",
+      caption: "A short description",
+      image:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      title: "Python Project 1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
+      links: [
+        { link: "https:://wwww.google.com", icon: <YouTube /> },
+        { link: "https:://wwww.google.com", icon: <GitHubIcon /> },
+        { link: "https:://wwww.google.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "Java",
+      caption: "A short description",
+      image:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      title: "Java Project 1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
+      links: [
+        { link: "https:://wwww.google.com", icon: <YouTube /> },
+        { link: "https:://wwww.google.com", icon: <GitHubIcon /> },
+        { link: "https:://wwww.google.com", icon: <Language /> },
+      ],
     },
   ],
 };
