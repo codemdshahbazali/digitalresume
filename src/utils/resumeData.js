@@ -125,8 +125,12 @@ const dataObj = {
     {
       tag: "React",
       caption: "A short description",
-      image:
+      images: [
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      ],
+
       title: "React Project 1",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
@@ -139,8 +143,12 @@ const dataObj = {
     {
       tag: "React",
       caption: "A short description",
-      image:
+      images: [
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      ],
+
       title: "React Project 2",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
@@ -153,8 +161,11 @@ const dataObj = {
     {
       tag: "Python",
       caption: "A short description",
-      image:
+      images: [
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      ],
       title: "Python Project 1",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",
@@ -167,8 +178,11 @@ const dataObj = {
     {
       tag: "Java",
       caption: "A short description",
-      image:
+      images: [
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220310072422/7-Best-React-Project-Ideas-for-Beginners-in-2022.png",
+      ],
       title: "Java Project 1",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos facilis tenetur ducimus similique ipsam recusandae ab ea ad vitae iste sit assumenda quia eveniet, totam nam sed quam odio cupiditate?",

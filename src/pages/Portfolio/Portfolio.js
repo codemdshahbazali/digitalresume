@@ -18,6 +18,7 @@ import { useState } from "react";
 import "./Portfolio.css";
 
 import resumeData from "./../../utils/resumeData";
+import ImageGallery from "../../components/ImageGallery/ImageGallery";
 
 const ProjectDialogue = ({ projectDialog, setProjectDialog }) => {
   return (
@@ -25,16 +26,18 @@ const ProjectDialogue = ({ projectDialog, setProjectDialog }) => {
       open={!!projectDialog}
       onClose={() => setProjectDialog(false)}
       className='projectDialog'
+      maxWidth={"lg"} //xs, sm,md,lg,xl
     >
       <DialogTitle onClose={() => setProjectDialog(false)}>
         {projectDialog?.title}
       </DialogTitle>
-      <img
+      {/* <img
         src={projectDialog?.image}
         alt=''
         className='projectDialogue_image'
-      />
-      <DialogContent>
+      /> */}
+      <DialogContent style={{ height: "80vh" }}>
+        {projectDialog.images && <ImageGallery images={projectDialog.images} />}
         <Typography className='projectDialogue_description'>
           {projectDialog?.description}
         </Typography>
@@ -108,7 +111,7 @@ const Portfolio = () => {
             return (
               <>
                 {tabValue === project.tag || tabValue === "All" ? (
-                  <Grid item xs={3} sm={6} md={4} lg={3}>
+                  <Grid item xs={12} sm={6} md={4} lg={3}>
                     <Grow in timeout={1000}>
                       <Card
                         className='customCard'
@@ -117,7 +120,7 @@ const Portfolio = () => {
                         <CardActionArea>
                           <CardMedia
                             className='customCard_image'
-                            image={project.image}
+                            image={project.images[0]}
                           />
                           <CardContent>
                             <Typography
