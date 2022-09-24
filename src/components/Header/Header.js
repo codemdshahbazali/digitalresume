@@ -2,12 +2,10 @@ import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Header.css";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 
 import { HomeRounded } from "@mui/icons-material";
 import TelegramIcon from "@mui/icons-material/Telegram";
@@ -34,7 +32,7 @@ const Header = (props) => {
           <Nav.Link
             as={NavLink}
             to='/'
-            className={pathName == "/" ? "header_link_active" : "header_link"}
+            className={pathName === "/" ? "header_link_active" : "header_link"}
           >
             Resume
           </Nav.Link>
@@ -44,7 +42,7 @@ const Header = (props) => {
             as={NavLink}
             to='/portfolio'
             className={
-              pathName == "/portfolio" ? "header_link_active" : "header_link"
+              pathName === "/portfolio" ? "header_link_active" : "header_link"
             }
           >
             Portfolio

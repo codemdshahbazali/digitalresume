@@ -5,7 +5,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import WebOutlinedIcon from "@mui/icons-material/WebOutlined";
 import StorageIcon from "@mui/icons-material/Storage";
 import BugReportIcon from "@mui/icons-material/BugReport";
-import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
 import { Language, YouTube } from "@mui/icons-material";
 
 const dataObj = {

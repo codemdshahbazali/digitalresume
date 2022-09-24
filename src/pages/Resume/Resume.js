@@ -1,4 +1,4 @@
-import { Grid, Icon, Paper, TextField, Typography } from "@mui/material";
+import { Grid, Paper, TextField, Typography } from "@mui/material";
 import React from "react";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";

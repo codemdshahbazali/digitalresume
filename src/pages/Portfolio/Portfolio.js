@@ -50,6 +50,7 @@ const ProjectDialogue = ({ projectDialog, setProjectDialog }) => {
               href={link?.link}
               target='_blank'
               className='projectDialogue_icon'
+              rel='noreferrer'
             >
               {link?.icon}
             </a>
